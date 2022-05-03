@@ -36,7 +36,7 @@ public class NovaEmpresa {
 		Banco banco = new Banco();		
 		banco.adiciona(empresa);	
 		
-		request.setAttribute("empresa", empresa.getNome());
+		request.setAttribute("empresas", empresa.getNome());
 		
 		return "redirect:entrada?acao=ListaEmpresas";
 		
